@@ -38,7 +38,7 @@ O sistema alterna entre pacientes prioritários e normais quando a proporção d
 Fora dessa condição, o atendimento segue a ordem normal da fila.
 
 
-🧩 Funcionalidades Principais
+Funcionalidades Principais
 Função	Descrição
 add_patient(nome, idade, prioridade)	Adiciona paciente respeitando a ordem e prioridade
 remove_patient()	Remove o próximo paciente conforme as regras
@@ -47,9 +47,8 @@ display()	Mostra a fila em formato ASCII
 display_reverse()	Mostra a fila invertida
 fill_with_sample()	Gera 10 pacientes automaticamente
 interactive_mode()	Abre modo interativo no terminal
-💻 Como Executar
 
-🧠 Estrutura de Dados Implementada
+Estrutura de Dados Implementada
 PatientNode
  ├── name: str
  ├── age: int
@@ -77,4 +76,4 @@ Nome 2:Maria Gabriela G Barbosa
 Nome 3: Thays Gomes 
 
 
-Este projeto é de uso exclusivamente acadêmico e foi desenvolvido como atividade prática da disciplina Estrutura de Dados (Centro Universitário de Brasília – CEUB).
+Este projeto é de uso exclusivamente acadêmico e foi desenvolvido como projeto da disciplina Estrutura de Dados (Centro Universitário de Brasília – CEUB).
